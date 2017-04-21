@@ -1,0 +1,29 @@
+响应式网站开发流程：
+1、准备好需要的样式和图片
+
+2、分析整体html布局
+
+3、引入bootstrap样式和字体样式
+   Bootstrap 是最受欢迎的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目。
+   Font Awesome是为Bootstrap设计,一套绝佳的图标字体库和CSS框架
+
+4、主要样式style.css
+
+5、引入respond.js(html5shiv和respond.min.js的用途)
+	html5shiv：解决ie9以下浏览器对html5新增标签的不识别，并导致CSS不起作用的问题。
+
+	respond.min.js:让不支持css3 Media Query的浏览器包括IE6-IE8等其他浏览器支持查询。
+
+6、引入主要的js，jquery,bootstrap,modernizr(modernizr.js的使用方法)
+	modernizr.js是为检测浏览器的css3和HTML5的属性而生，从而通过CSS来解决兼容性问题
+
+
+collapse 折叠
+
+
+7、html结构----css样式----js效果
+
+
+问题：sublime快速简写代码
+-wmo-
+
